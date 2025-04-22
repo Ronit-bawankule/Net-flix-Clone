@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+body{
+    background-color: #000000ed;
+}
+.backgroundContainer{
+    background-image: url(banner.jpg);
+    filter: blur(30px);
+    height: 100vh;
+    top: 4rem;
+    position: relative;
+    opacity: 0.6
+}
+.mainContaimer{
+    position: relative;
+}
+.pinkOverlay{
+    opacity: 75%;
+    background-color: rgb(255 75 84 / 30%);
+    height: 100%;
+    width: 100%;
+}
+
+.contentContainer{
+    position: relative;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    
+}
+
+nav{
+    position:absolute ;
+    align-items: start;
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+}
+.uppernavbar{
+    display: flex;
+    padding-top: 0.25rem;
+    padding-left:2rem;
+}
+.unleft{
+    width: 50%;
+}
+.unright{
+    width: 50%;
+}
+.new-buttons{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 3.5rem;
+}
+.lang-b{
+    
+}
+.lang-b svg{
+    color: #ffffff;
+    position: relative;
+    top: 2px;
+}
+
+.lang-b button{
+    height: 2.2rem;
+    width: 8.4rem;
+   border-radius: 27px;
+   background-color:rgba(0, 0, 0, 0.525);
+   color: #ffffff;
+   border: 1px solid rgba(255, 255, 255, 0.626);
+   font-size: 1rem;
+   position: relative;
+   justify-content: space-between;
+}
+
+.signin-b{
+    padding: 0px 0px 0px 12px;
+}
+.signin-b button{
+    height: 2.15rem;
+    width: 5.2rem;
+    border-radius: 27px;
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 0.9rem;
+    font-weight: 530;
+}
+.unleft img{
+    height: 5.45rem;
+    width: 12.75rem;
+}
+.bgg{
+    border: 5px solid green;
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 94%;
+    height: 36rem;
+    width: 100%;
+    
+    align-items: center;
+    margin: 0% 3%;
+    top: -89vh;
+    bottom: 22rem;
+    border-radius: 17px;
+    border: 2px solid #ffffff24;
+    box-sizing: content-box;
+    clip-path: polygon(0% -1000%, 100% 5%, 100% 100%, 49% 93%, /* Inward curve at the bottom center */ -12% 101%);
+    justify-content: center;
+
+    /* Top corner adjustments */
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px; /* Add this for the top-right corner */
+}
+
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.711); /* Semi-transparent black overlay */
+    border-radius: inherit;
+    z-index: inherit;
+}
+
+.txt-banner{
+    position: absolute;
+    height: 100%;
+    width: 56%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headd h2{
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1.7rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.headd h4{
+    display: flex;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    justify-content: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.txt-banner p{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight:500 ;
+
+    color: #ffffff;
+    font-size: 1.1999999rem;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+form{
+    display: flex;
+}
+ input::placeholder {
+    color: rgb(218, 213, 213); /* Sets the color of the placeholder text */
+   font-size: 1rem;
+   padding-left: 1rem;
+}
+.eid{
+    height: 3.5rem;
+    width: 21.5rem;
+    border-radius: 30px;
+    margin-right: 0.5rem;
+    background-color: hsl(0deg 0.72% 48.06% / 59%);
+    border: 0.5px solid rgb(147 147 147 / 90%);
+}
+
+.gs-button{
+    height: 3.5rem;
+    width: 14.35rem;
+    position: relative;
+    border-radius: 30px;
+    background-color: red;
+    color: #fff9f9;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 29px;
+
+   
+}
+.gs svg{
+    position: absolute;   
+    right: 1rem;
+    bottom: 15px;
+}
+.trend-now{
+    border: 2px solid greenyellow;
+    position: relative;
+    bottom: 43rem;
+    margin-left: 8rem;
+
+}
+.trend-now h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #dfd7de;
+}
+.trending-container{
+    border: 2px solid rgb(5, 203, 243);
+    color: #ffffff;
+    position: relative;
+    
+    
+
+}
+.gallary{
+    border: 2px solid rgb(231, 9, 9);
+
+}
+.gallary button{
+    width: 8.1875rem;
+    height: 16.375rem;
+    background-image: url(t1.webp);
+    background-size: 100% 100%;
+}
+.ti{
+    background-image: url(t1.webp);
+}
